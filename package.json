@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "npm build && node ."
+    "build-ts": "tsc",
+    "postinstall": "npm run build-ts",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
