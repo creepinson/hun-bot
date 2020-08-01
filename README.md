@@ -1,7 +1,7 @@
 # Hun Bot, your favourite discord hun bot!
-She has been programmed to be as ignorant and blunt about health
-and what is socially acceptable to say! Just like a real MLM bull
-shit perpetuating facebook mom.
+She has been programmed to be ignorant and blunt about health and
+what is socially acceptable to say! Just like a real MLM bull shit
+perpetuating facebook mom.
 
 # Features
 ## Sparklize!
