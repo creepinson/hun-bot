@@ -10,4 +10,4 @@ If you prepend your message with ```!sparklize``` it will add
 - Hun
 - Essential
 - Oils
-And soon much much more!
+- And much much more!
