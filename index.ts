@@ -8,7 +8,7 @@ const bot:Discord.Client = new Discord.Client();
 
 bot.on("ready", ()=>console.log("Logged in!"));
 bot.on("message", message => {
-    if (message.author.bot) return;
+    if (message.author.id === client.user.id) return;
     const content:string = message.content;
     let words = content.replace(/\s+/g,' ').split(' ');
     switch (words[0]) {
@@ -17,7 +17,6 @@ bot.on("message", message => {
             utils.sendMessage(message.channel,content.replace(/!sparklize\s+/,""));
             break;
     }
-    
 });
 
 bot.login(token);
