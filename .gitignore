@@ -1,5 +1,4 @@
 node_modules
 .env
-**.js
-**.d.ts
+dist
 pnpm-lock.yaml
